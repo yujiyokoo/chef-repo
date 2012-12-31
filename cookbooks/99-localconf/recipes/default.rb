@@ -13,9 +13,3 @@ directory '/home/vagrant/src' do
   action :create
 end
 
-execute 'hg clane repo' do
-  command 'hg clone https://yujiyokoo@bitbucket.org/yujiyokoo/node_fullstack'
-  user 'vagrant'
-  cwd '/home/vagrant/src'
-  action :nothing
-end
