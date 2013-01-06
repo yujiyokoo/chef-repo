@@ -16,3 +16,6 @@
 [submodule "cookbooks/openssl"]
 	path = cookbooks/openssl
 	url = https://github.com/opscode-cookbooks/openssl.git
+[submodule "cookbooks/npm"]
+	path = cookbooks/npm
+	url = https://github.com/balbeko/chef-npm.git

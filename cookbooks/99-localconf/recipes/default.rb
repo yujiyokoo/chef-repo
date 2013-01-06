@@ -1,5 +1,9 @@
 package 'mercurial'
 package 'vim'
+package 'byobu'
+
+npm_package 'formidable'
+npm_package 'fs'
 
 template '/home/vagrant/.vimrc' do
   owner 'vagrant'
